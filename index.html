@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Precisa Wedding Planner – Organizamos la boda de tus sueños con elegancia, exclusividad y atención personalizada. Coordinación integral, decoración y gestión de proveedores." />
+  <meta name="keywords" content="wedding planner, bodas, organización de bodas, boda de lujo, decoración bodas, coordinación de eventos" />
+  <meta name="author" content="Precisa Wedding Planner" />
+  <meta property="og:title" content="Precisa Wedding Planner – La boda de tus sueños" />
+  <meta property="og:description" content="Especialistas en la organización de bodas de lujo. Tu día perfecto, nuestro compromiso." />
+  <meta property="og:type" content="website" />
+  <title>Precisa Wedding Planner – La Boda de Tus Sueños</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.png" alt="Precisa Wedding Planner Logo" class="logo-img" id="nav-logo-img" />
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#que-es" class="nav-link">¿Qué es?</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#galeria" class="nav-link">Galería</a></li>
+        <li><a href="#proceso" class="nav-link">Proceso</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-link nav-cta">Contáctenos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg" style="background-image: url('images/hero_ceremony.png');"></div>
+    <div class="hero-content">
+      <p class="hero-pre-title animate-fade-up">— Bienvenidos a —</p>
+      <div class="hero-logo-wrap animate-fade-up delay-1">
+        <img src="images/logo.png" alt="Precisa Wedding Planner" class="hero-logo" />
+      </div>
+      <h1 class="hero-title animate-fade-up delay-2">
+        La Boda de Tus <em>Sueños</em>
+      </h1>
+      <p class="hero-subtitle animate-fade-up delay-3">
+        Creamos momentos únicos e irrepetibles. Cada detalle, pensado con amor y precisión para que tu día sea perfecto.
+      </p>
+      <div class="hero-buttons animate-fade-up delay-4">
+        <a href="#contacto" class="btn btn-gold" id="hero-cta-consult">Agenda una Consulta</a>
+        <a href="#servicios" class="btn btn-outline" id="hero-cta-services">Ver Nuestros Servicios</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Descubrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       ¿QUÉ ES UN WEDDING PLANNER?
+  ═══════════════════════════════════════════════════ -->
+  <section class="what-is section" id="que-es">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nuestra Esencia</p>
+        <h2 class="section-title">¿Qué es un <em>Wedding Planner</em>?</h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Un Wedding Planner es el profesional especializado que convierte la visión de tu boda en una realidad impecable. Gestionamos cada aspecto del evento para que tú solo tengas que disfrutar.</p>
+      </div>
+
+      <div class="what-is-grid">
+        <div class="what-is-image reveal">
+          <div class="image-frame">
+            <img src="images/about_planner.png" alt="Profesional Wedding Planner Precisa" />
+          </div>
+          <div class="image-accent-box">
+            <span class="accent-number">+200</span>
+            <span class="accent-text">Bodas perfectas organizadas</span>
+          </div>
+        </div>
+
+        <div class="what-is-content reveal">
+          <h3 class="content-heading">Tu aliada en el día más especial de tu vida</h3>
+          <p class="content-text">
+            Organizar una boda implica coordinar decenas de proveedores, gestionar presupuestos, negociar contratos y resolver imprevistos. Un Wedding Planner profesional como <strong>Precisa</strong> toma ese peso de tus hombros para que puedas vivir cada instante de tu boda con total plenitud.
+          </p>
+
+          <div class="benefits-grid">
+            <div class="benefit-card" id="benefit-stress">
+              <div class="benefit-icon"><i class="fa-solid fa-heart"></i></div>
+              <div class="benefit-info">
+                <h4>Sin Estrés</h4>
+                <p>Nos encargamos de cada detalle para que tú disfrutes del proceso.</p>
+              </div>
+            </div>
+            <div class="benefit-card" id="benefit-providers">
+              <div class="benefit-icon"><i class="fa-solid fa-handshake"></i></div>
+              <div class="benefit-info">
+                <h4>Gestión de Proveedores</h4>
+                <p>Red exclusiva de los mejores proveedores del mercado.</p>
+              </div>
+            </div>
+            <div class="benefit-card" id="benefit-budget">
+              <div class="benefit-icon"><i class="fa-solid fa-coins"></i></div>
+              <div class="benefit-info">
+                <h4>Optimización del Presupuesto</h4>
+                <p>Maximizamos cada peso invertido para obtener el mejor resultado.</p>
+              </div>
+            </div>
+            <div class="benefit-card" id="benefit-personal">
+              <div class="benefit-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="benefit-info">
+                <h4>Atención Personalizada</h4>
+                <p>Cada boda es única. Tu historia merece una propuesta a tu medida.</p>
+              </div>
+            </div>
+            <div class="benefit-card" id="benefit-coord">
+              <div class="benefit-icon"><i class="fa-solid fa-calendar-check"></i></div>
+              <div class="benefit-info">
+                <h4>Coordinación Total</h4>
+                <p>Supervisamos el día del evento para que todo fluya a la perfección.</p>
+              </div>
+            </div>
+            <div class="benefit-card" id="benefit-moments">
+              <div class="benefit-icon"><i class="fa-solid fa-camera"></i></div>
+              <div class="benefit-info">
+                <h4>Momentos Eternos</h4>
+                <p>Capturamos y coordinamos cada instante para que perduré en el tiempo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       SERVICIOS
+  ═══════════════════════════════════════════════════ -->
+  <section class="services section" id="servicios">
+    <div class="services-bg-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Lo que Ofrecemos</p>
+        <h2 class="section-title">Nuestros <em>Servicios</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Cada servicio diseñado para crear una experiencia extraordinaria e inolvidable en tu gran día.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal" id="svc-integral">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-ring"></i>
+          </div>
+          <h3>Planeamiento Integral</h3>
+          <p>Desde el primer "sí" hasta el último vals. Coordinamos absolutamente todo con maestría y dedicación.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-coord">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+          <h3>Coordinación del Día</h3>
+          <p>El día del evento, estamos contigo. Supervisamos cada momento para que sea exactamente como lo soñaste.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-deco">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <h3>Decoración y Ambientación</h3>
+          <p>Transformamos espacios en escenarios de ensueño. Cada detalle floral, lumínico y escénico a tu medida.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-prov">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h3>Gestión de Proveedores</h3>
+          <p>Contamos con una red elite de proveedores verificados: floristas, caterers, fotógrafos y más.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-destino">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-plane-departure"></i>
+          </div>
+          <h3>Bodas Destino</h3>
+          <p>¿Sueñas con casarte en un lugar exótico? Organizamos bodas destino en los lugares más hermosos del mundo.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-catering">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h3>Catering y Recepción</h3>
+          <p>Menús de alta cocina adaptados a tu estilo. Experiencias gastronómicas que dejarán a tus invitados encantados.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-logistica">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3>Producción y Logística</h3>
+          <p>Coordinamos toda la logística del evento: transporte, montaje, protocolo y gestión en tiempo real.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-foto">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-camera-retro"></i>
+          </div>
+          <h3>Fotografía y Video</h3>
+          <p>Los mejores fotógrafos y videógrafos para eternizar cada instante de tu boda con arte y sensibilidad.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal" id="svc-musica">
+          <div class="service-icon-wrap">
+            <i class="fa-solid fa-music"></i>
+          </div>
+          <h3>Música y Entretenimiento</h3>
+          <p>Desde orquestas en vivo hasta DJs internacionales. La banda sonora perfecta para cada momento de tu boda.</p>
+          <div class="service-link">Conocer más <i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       GALERÍA
+  ═══════════════════════════════════════════════════ -->
+  <section class="gallery section" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nuestra Obra</p>
+        <h2 class="section-title">Galería de <em>Eventos</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Cada fotografía es un testimonio de nuestra pasión por la perfección y el detalle.</p>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+        <button class="filter-btn" data-filter="ceremony" id="filter-ceremony">Ceremonias</button>
+        <button class="filter-btn" data-filter="reception" id="filter-reception">Recepciones</button>
+        <button class="filter-btn" data-filter="details" id="filter-details">Detalles</button>
+      </div>
+
+      <div class="gallery-masonry" id="gallery-grid">
+        <div class="gallery-item tall" data-category="ceremony" id="gal-1">
+          <img src="images/hero_ceremony.png" alt="Ceremonia elegante" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Ceremonia Elegante</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="reception" id="gal-2">
+          <img src="images/gallery_reception.png" alt="Recepción de lujo" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Recepción de Lujo</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="details" id="gal-3">
+          <img src="images/gallery_flowers.png" alt="Arreglos florales" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Arreglos Florales</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-category="ceremony" id="gal-4">
+          <img src="images/couple_photo.png" alt="Novios felices" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Sesión de Novios</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="reception" id="gal-5">
+          <img src="images/gallery_table.png" alt="Mesa elegante" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Mesa Temática</p>
+          </div>
+        </div>
+        <div class="gallery-item tall" data-category="ceremony" id="gal-6">
+          <img src="images/gallery_arch.png" alt="Arco floral" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Arco Floral</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-category="details" id="gal-7">
+          <img src="images/gallery_details.png" alt="Detalles de boda" loading="lazy" />
+          <div class="gallery-overlay">
+            <i class="fa-solid fa-expand"></i>
+            <p>Detalles Exclusivos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Galería de imágenes">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">×</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightbox-img" />
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+      <button class="lightbox-next" id="lightbox-next" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       PROCESO DE TRABAJO
+  ═══════════════════════════════════════════════════ -->
+  <section class="process section" id="proceso">
+    <div class="process-bg" style="background-image: url('images/gallery_arch.png');"></div>
+    <div class="process-overlay"></div>
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-tag">Cómo Trabajamos</p>
+        <h2 class="section-title">Nuestro <em>Proceso</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Un camino claro y tranquilo hacia el día perfecto que siempre imaginaste.</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="process-step reveal" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-mug-hot"></i></div>
+            <h3>Primera Reunión</h3>
+            <p>Nos conocemos, escuchamos tu visión, tus deseos y el presupuesto disponible. Todo comienza con una conversación.</p>
+          </div>
+        </div>
+        <div class="process-step reveal" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-pencil"></i></div>
+            <h3>Planificación Detallada</h3>
+            <p>Elaboramos un plan maestro con cronograma, presupuesto detallado y selección de proveedores premium.</p>
+          </div>
+        </div>
+        <div class="process-step reveal" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-palette"></i></div>
+            <h3>Diseño de la Experiencia</h3>
+            <p>Creamos el concepto visual: paleta de colores, decoración, ambiente y la identidad única de tu boda.</p>
+          </div>
+        </div>
+        <div class="process-step reveal" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Coordinación de Proveedores</h3>
+            <p>Gestionamos contratos, reuniones y ensayos con todos los proveedores para garantizar sincronía total.</p>
+          </div>
+        </div>
+        <div class="process-step reveal" id="step-5">
+          <div class="step-number">05</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-eye"></i></div>
+            <h3>Supervisión del Evento</h3>
+            <p>El día de la boda, nuestro equipo supervisa cada momento en tiempo real para que todo sea perfecto.</p>
+          </div>
+        </div>
+        <div class="process-step reveal" id="step-6">
+          <div class="step-number">06</div>
+          <div class="step-content">
+            <div class="step-icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+            <h3>¡Celebración Perfecta!</h3>
+            <p>Tú solo tienes que sonreír, bailar y disfrutar. El resto es nuestra responsabilidad y nuestra pasión.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       ESTADÍSTICAS
+  ═══════════════════════════════════════════════════ -->
+  <section class="stats section" id="estadisticas">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal" id="stat-weddings">
+          <div class="stat-icon"><i class="fa-solid fa-ring"></i></div>
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-plus">+</div>
+          <p class="stat-label">Bodas Organizadas</p>
+        </div>
+        <div class="stat-item reveal" id="stat-clients">
+          <div class="stat-icon"><i class="fa-solid fa-heart"></i></div>
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-plus">%</div>
+          <p class="stat-label">Clientes Satisfechos</p>
+        </div>
+        <div class="stat-item reveal" id="stat-years">
+          <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="stat-number" data-target="10">0</div>
+          <div class="stat-plus">+</div>
+          <p class="stat-label">Años de Experiencia</p>
+        </div>
+        <div class="stat-item reveal" id="stat-providers">
+          <div class="stat-icon"><i class="fa-solid fa-handshake"></i></div>
+          <div class="stat-number" data-target="150">0</div>
+          <div class="stat-plus">+</div>
+          <p class="stat-label">Proveedores Aliados</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       TESTIMONIOS
+  ═══════════════════════════════════════════════════ -->
+  <section class="testimonials section" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Lo Que Dicen</p>
+        <h2 class="section-title">Testimonios de <em>Amor</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Las palabras de quienes ya vivieron su boda perfecta con nosotros.</p>
+      </div>
+
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonials-track">
+          <div class="testimonial-card" id="test-1">
+            <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">"Precisa hizo realidad la boda que siempre soñé. Cada detalle fue perfecto, desde las flores hasta la música. Fue el día más hermoso de mi vida y todo gracias a su dedicación."</p>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/testimonial1.png" alt="Valentina Rodríguez" class="author-photo" />
+              <div class="author-info">
+                <h4>Valentina Rodríguez</h4>
+                <p>Boda en Hacienda del Valle, 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" id="test-2">
+            <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">"Contratamos a Precisa para nuestra boda destino en Cartagena. Su profesionalismo y atención al detalle fueron excepcionales. No imagino haber podido organizar algo así sin su ayuda."</p>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/testimonial2.png" alt="Andrés & Carolina" class="author-photo" />
+              <div class="author-info">
+                <h4>Andrés Martínez</h4>
+                <p>Boda Destino Cartagena, 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" id="test-3">
+            <div class="testimonial-quote"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="testimonial-text">"El equipo de Precisa nos guió en cada paso. La decoración superó todas nuestras expectativas. Nuestros invitados aún hablan de lo espectacular que estuvo todo. ¡Gracias infinitas!"</p>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <div class="testimonial-author">
+              <img src="images/testimonial3.png" alt="Isabella Gómez" class="author-photo" />
+              <div class="author-info">
+                <h4>Isabella Gómez</h4>
+                <p>Boda Jardín de los Sueños, 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-nav">
+          <button class="t-prev" id="t-prev" aria-label="Anterior testimonio"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="t-dots">
+            <span class="t-dot active" data-idx="0"></span>
+            <span class="t-dot" data-idx="1"></span>
+            <span class="t-dot" data-idx="2"></span>
+          </div>
+          <button class="t-next" id="t-next" aria-label="Siguiente testimonio"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       CONTACTO
+  ═══════════════════════════════════════════════════ -->
+  <section class="contact section" id="contacto">
+    <div class="contact-top-image" style="background-image: url('images/gallery_table.png');"></div>
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Hablemos</p>
+        <h2 class="section-title">Comienza tu <em>Historia</em></h2>
+        <div class="gold-divider"></div>
+        <p class="section-desc">Da el primer paso hacia la boda de tus sueños. Estamos aquí para escucharte.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nombre Completo *</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo Electrónico *</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="+57 300 000 0000" />
+              </div>
+              <div class="form-group">
+                <label for="wedding-date">Fecha Estimada de Boda</label>
+                <input type="date" id="wedding-date" name="wedding-date" />
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="service">Servicio de Interés</label>
+              <select id="service" name="service">
+                <option value="">Selecciona un servicio</option>
+                <option value="integral">Planeamiento Integral</option>
+                <option value="coordinacion">Coordinación del Día</option>
+                <option value="decoracion">Decoración y Ambientación</option>
+                <option value="destino">Boda Destino</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="message">Cuéntanos sobre tu boda *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe tu visión, número de invitados, lugar de preferencia..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-full" id="form-submit">
+              <i class="fa-solid fa-paper-plane"></i> Enviar Consulta
+            </button>
+            <p class="form-note">* Tu información es confidencial y nunca será compartida.</p>
+          </form>
+          <div class="form-success" id="form-success" style="display:none;">
+            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h3>¡Mensaje Enviado!</h3>
+            <p>Gracias por contactarnos. Nos pondremos en contacto contigo dentro de las próximas 24 horas.</p>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <h3 class="info-heading">Información de Contacto</h3>
+
+          <div class="contact-info-items">
+            <div class="contact-info-item" id="contact-whatsapp">
+              <div class="info-icon whatsapp-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <h4>WhatsApp</h4>
+                <a href="https://wa.me/573001234567?text=Hola!%20Me%20gustaría%20más%20información%20sobre%20sus%20servicios%20de%20Wedding%20Planner" target="_blank" rel="noopener">+57 300 123 4567</a>
+                <p>Respuesta inmediata</p>
+              </div>
+            </div>
+            <div class="contact-info-item" id="contact-email">
+              <div class="info-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:info@precisawedding.com">info@precisawedding.com</a>
+                <p>Te respondemos en 24h</p>
+              </div>
+            </div>
+            <div class="contact-info-item" id="contact-location">
+              <div class="info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Ubicación</h4>
+                <p>Bogotá, Colombia</p>
+                <p>Servicio a nivel nacional e internacional</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <h4>Síguenos en Redes Sociales</h4>
+            <div class="social-links">
+              <a href="#" class="social-btn" id="social-instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-btn" id="social-facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="social-btn" id="social-pinterest" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#" class="social-btn" id="social-tiktok" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+
+          <!-- Map Embed Placeholder -->
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39280122285!2d-74.24789760085483!3d4.648290010741747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2sBogot%C3%A1%2C%20Colombia!5e0!3m2!1ses!2sco!4v1709000000000"
+              allowfullscreen=""
+              loading="lazy"
+              title="Ubicación Precisa Wedding Planner"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <img src="images/logo.png" alt="Precisa Wedding Planner" class="footer-logo" />
+            <p class="footer-tagline">Creando el día más hermoso de tu vida con amor, elegancia y precisión.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" id="footer-instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook" id="footer-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Pinterest" id="footer-pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#" aria-label="TikTok" id="footer-tiktok"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#" aria-label="YouTube" id="footer-youtube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links">
+            <h4 class="footer-heading">Navegación</h4>
+            <ul>
+              <li><a href="#que-es">¿Qué es un Wedding Planner?</a></li>
+              <li><a href="#servicios">Nuestros Servicios</a></li>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#proceso">Proceso de Trabajo</a></li>
+              <li><a href="#testimonios">Testimonios</a></li>
+              <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="footer-links">
+            <h4 class="footer-heading">Servicios</h4>
+            <ul>
+              <li><a href="#servicios">Planeamiento Integral</a></li>
+              <li><a href="#servicios">Coordinación del Día</a></li>
+              <li><a href="#servicios">Decoración y Ambientación</a></li>
+              <li><a href="#servicios">Bodas Destino</a></li>
+              <li><a href="#servicios">Catering y Recepción</a></li>
+              <li><a href="#servicios">Fotografía y Video</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-contact">
+            <h4 class="footer-heading">Contacto</h4>
+            <p><i class="fa-brands fa-whatsapp"></i> +57 300 123 4567</p>
+            <p><i class="fa-solid fa-envelope"></i> info@precisawedding.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Bogotá, Colombia</p>
+            <a href="https://wa.me/573001234567?text=Hola!%20Me%20gustaría%20más%20información" target="_blank" rel="noopener" class="footer-whatsapp-btn" id="footer-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> Escríbenos por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="current-year"></span> Precisa Wedding Planner. Todos los derechos reservados.</p>
+        <p>Hecho con <i class="fa-solid fa-heart" style="color:#D4AF37;"></i> para hacer tu sueño realidad</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/573001234567?text=Hola!%20Me%20gustaría%20más%20información%20sobre%20los%20servicios%20de%20Precisa%20Wedding%20Planner" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener"
+     id="whatsapp-float"
+     aria-label="Chatear por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">¡Chatea con nosotros!</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
